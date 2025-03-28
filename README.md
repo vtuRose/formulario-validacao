@@ -1,4 +1,4 @@
-# Projeto Formulário com Validação
+# Projeto Formulário com validação
 
 Exercício prático em que precisei criar um site usando tudo que aprendi até agora.
 
