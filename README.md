@@ -1,6 +1,6 @@
 # Projeto Formulário com Validação
 
-Primeira vez criando um site de formulário com validação.
+Exercício prático em que precisei criar um site usando HTML+CSS+JS.
 
 <img src="./src/img/teste-formulario.gif" alt="Exemplo de funcionamento do formulário"/>
 
