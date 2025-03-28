@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/estilo.css" />
+    <title>Quest! - Formulário com validação</title>
+  </head>
+  <body>
+    <main class="fundo">
+      <div class="informacao">
+        <h1>FICOU COM DÚVIDA?<br />NOS MANDE UMA MENSAGEM!</h1>
+        <p>
+          caso tenha ficado com qualquer dúvida<br />
+          basta nos mandar uma mensagem e<br />
+          entraremos em contato em menos de 24h.
+        </p>
+      </div>
+
+      <section class="caixa-formulario">
+        <form class="formulario" id="formulario">
+          <input autofocus type="text" name="nome" id="nome" class="preencher" placeholder="Nome Completo *" />
+          <p id="erroNome" class="input-erro"></p>
+
+          <input type="email" name="email" id="email" class="preencher" placeholder="Email *" autocomplete="email" />
+          <p id="erroEmail" class="input-erro"></p>
+
+          <input type="tel" name="telefone" id="telefone" class="preencher" placeholder="Telefone *" />
+          <p id="erroTelefone" class="input-erro"></p>
+
+          <textarea name="mensagem" id="mensagem" class="preencher" placeholder="Mensagem *"></textarea>
+          <p id="erroMensagem" class="input-erro-mensagem"></p>
+
+          <p>*campos obrigatórios</p>
+
+          <input type="submit" value="Enviar" id="btn-enviar" class="botao" onclick="validarFormulario()" />
+        </form>
+      </section>
+    </main>
+    <script src="src/js/formulario.js"></script>
+  </body>
+</html>
